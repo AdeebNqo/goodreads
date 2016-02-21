@@ -164,7 +164,7 @@ class GoodreadsClient():
         resp = self.request("/review/show.xml", {'id': review_id})
         return GoodreadsReview(resp['review'])
 
-    def list_books(self, user_id, shelf):
+    def list_books(self, user_id, shelf, page=1):
         resp = self.request("/review/list/%s.xml" % user_id,
-                            {'shelf': shelf})
+                            {'shelf': shelf, 'page': page})
         return resp.get('books')
