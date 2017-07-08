@@ -1,5 +1,4 @@
-|Build Status| |Coverage Status| |Documentation Status| |Downloads|
-|Latest Version| |Supported Python versions| |License|
+This is a clone. It is updated based on my needs. If you need a specific feature, please let me know.
 
 goodreads
 =========
